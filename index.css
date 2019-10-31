@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.main-pomidor{
+    background-color: #333333;
+    height: 100vh;
+    width: 100%;
+    padding: 5.5rem 0;
+}
+
+.main-pomidor .pomidor-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-pomidor .pomidor-title__text{
+    font-size: 5rem;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+}
+
+.main-pomidor .pomidor-break,
+.main-pomidor .pomidor-work-time {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-pomidor .pomidor-break ul,
+.main-pomidor .pomidor-work-time ul {
+    display: flex;
+    width: 10rem;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.main-pomidor .pomidor-break ul li,
+.main-pomidor .pomidor-work-time ul li {
+    list-style-type: none;
+}
+
+.main-pomidor .pomidor-break ul li p,
+.main-pomidor .pomidor-work-time ul li p {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+.main-pomidor .pomidor-break ul li p:hover,
+.main-pomidor .pomidor-work-time ul li p:hover {
+    cursor: pointer;
+}
+
+.main-pomidor .pomidor-break .pomidor-title-time ,
+.main-pomidor .pomidor-work-time .pomidor-title-time {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 32px;
+}
+
+.main-pomidor .setTime{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-pomidor .setTime p {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+.main-pomidor .btn-status{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media only screen and (max-width: 576px){
+    .main-pomidor{
+        padding: 0;
+    }
+}
